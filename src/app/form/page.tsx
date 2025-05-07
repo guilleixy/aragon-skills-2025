@@ -1,3 +1,4 @@
+"use client";
 import { useForm } from "@mantine/form";
 import { Button, Checkbox, Group, TextInput } from "@mantine/core";
 
@@ -12,13 +13,13 @@ export default function FormPage() {
     <section id="form-section">
       <form onSubmit={form.onSubmit((values) => console.log(values))}>
         <h2>Formulario de competidores</h2>
-        <TextInput
+        {/*         <TextInput
           withAsterisk
           label="Name"
           placeholder="Name"
           key={form.key("name")}
           {...form.getInputProps("name")}
-        />
+        /> */}
         <input type="text" name="name" id="name" placeholder="Nombre" />
         <select name="category" id="category">
           <option value="1">Mecatrónica</option>

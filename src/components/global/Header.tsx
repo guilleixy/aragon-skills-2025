@@ -10,17 +10,17 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a className="nav-a" href="#objectives">
+            <a className="nav-a" href="/#objectives">
               Objetivos
             </a>
           </li>
           <li>
-            <a className="nav-a" href="#contestants">
+            <a className="nav-a" href="/#contestants">
               Participantes
             </a>
           </li>
           <li>
-            <a className="nav-a" href="#table">
+            <a className="nav-a" href="/#table">
               Ganadores
             </a>
           </li>

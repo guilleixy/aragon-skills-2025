@@ -11,7 +11,7 @@ import {
 } from "@mantine/core";
 
 export default function LoginPage() {
-  const { data: session } = useSession();
+  /*   const { data: session } = useSession();
   if (session) {
     return (
       <>
@@ -19,7 +19,7 @@ export default function LoginPage() {
         <button onClick={() => signOut()}>Cerrar Sesión</button>{" "}
       </>
     );
-  }
+  } */
   const form = useForm({
     mode: "uncontrolled",
     initialValues: {
@@ -30,26 +30,17 @@ export default function LoginPage() {
     validate: {},
   });
   return (
-    <section>
-      <h2>Inicio de sesión</h2>
-      <form onSubmit={form.onSubmit((values) => console.log(values))}>
-        <TextInput
-          withAsterisk
-          label="Username"
-          placeholder="Type your username"
-          key={form.key("username")}
-          {...form.getInputProps("username")}
+    <section id="form-section">
+      <form action="">
+        <h2>Inicio de sesión</h2>
+        <input type="text" name="user" id="user" placeholder="Usuario" />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
         />
-        <PasswordInput
-          withAsterisk
-          label="Password"
-          placeholder="Type your password"
-          key={form.key("password")}
-          {...form.getInputProps("password")}
-        />
-        <Group justify="flex-end" mt="md">
-          <Button type="submit">Submit</Button>
-        </Group>
+        <input type="submit" value="Enviar" />
       </form>
     </section>
   );

@@ -2,6 +2,7 @@
 // All packages except `@mantine/hooks` require styles imports
 import "@mantine/core/styles.css";
 import "./globals.css";
+import "./stars.css";
 import "./reset.css";
 import {
   ColorSchemeScript,
@@ -15,6 +16,7 @@ export const metadata = {
   description: "I have followed setup instructions carefully",
 };
 import { SessionProvider } from "next-auth/react";
+import Stars from "@/components/global/Stars/Stars";
 
 export default function RootLayout({
   children,
@@ -28,6 +30,7 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider>
+          <Stars />
           <Header />
           {children}
         </MantineProvider>
