@@ -42,11 +42,11 @@ model Edicion{
 }
 
 model ResultadoCompetidor{
-  competidor Competidor @relation(fields: [competidorId], references: [id])
-  competidorId   Int
-  edicion Edicion @relation(fields: [edicionId], references: [id])
+  competidor Competidor? @relation(fields: [competidorId], references: [id])
+  competidorId Int
+  edicion Edicion? @relation(fields: [edicionId], references: [id])
   edicionId Int
-  position String
+  position String 
   @@id([competidorId, edicionId]) 
 }
 
