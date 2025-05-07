@@ -5,17 +5,18 @@ import { NextRequest } from "next/server";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { name, year, escuelaId, especialidadId, posicion } = body;
-    if (!name || !year || escuelaId || especialidadId || posicion) {
+    const { name, escuelaId, especialidadId, posicion } = body;
+    const year = "2025";
+    /*     if (!name || escuelaId || especialidadId || posicion) {
       return NextResponse.json({ error: "Missing fields" }, { status: 400 });
-    }
+    } */
     await prisma.competidor.upsert({
       where: { name: name },
       update: {},
       create: {
         name: name,
-        escuelaId: escuelaId,
-        especialidadId: especialidadId,
+        escuelaId: parseInt(escuelaId),
+        especialidadId: parseInt(especialidadId),
       },
     });
     const edicion = await prisma.edicion.findFirst({
