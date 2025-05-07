@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+To manage CSV conversion and DB seeding:
+
+```bash
+cd python
+
+python3 main.py
+
+cd ../
+
+npx prisma db seed
+
+```
+
+To visualize DB:
+
+```bash
+npx prisma db studio
+```
+
 ## Getting Started
 
 First, run the development server:
