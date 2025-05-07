@@ -33,13 +33,13 @@ model Escuela{
 model Especialidad {
   id Int @id @default(autoincrement())
   name String
-  code Int
+  code String
   especialistas Competidor[]
 }
 
 model Edicion{
   id Int @id @default(autoincrement())
-  year Int
+  year String
   resultados ResultadoCompetidor[]
 }
 
@@ -48,6 +48,6 @@ model ResultadoCompetidor{
   competidorId   Int
   edicion Edicion @relation(fields: [edicionId], references: [id])
   edicionId Int
-  position Int
+  position String
   @@id([competidorId, edicionId]) 
 }
