@@ -12,6 +12,9 @@ export default function FormPage() {
 
     validate: {},
   });
+
+  const handleSubmit = (value: any) => {};
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -48,7 +51,7 @@ export default function FormPage() {
   }, []);
   return (
     <section id="form-section">
-      <form onSubmit={form.onSubmit((values) => console.log(values))}>
+      <form onSubmit={form.onSubmit((values) => handleSubmit(value))}>
         <h2>Formulario de competidores</h2>
         {/*         <TextInput
           withAsterisk
@@ -71,11 +74,11 @@ export default function FormPage() {
           {...form.getInputProps("Escuela")}
         />
         <select name="position" id="position">
-          <option value="gold">Oro</option>
-          <option value="silver">Plata</option>
-          <option value="bronze">Bronce</option>
+          <option value="ORO">Oro</option>
+          <option value="PLATA">Plata</option>
+          <option value="BRONCE">Bronce</option>
         </select>
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" className="cursor-pointer" />
       </form>
     </section>
   );

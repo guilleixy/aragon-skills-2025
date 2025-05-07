@@ -31,7 +31,11 @@ export default function LoginPage() {
   });
   return (
     <section id="form-section">
-      <form action="">
+      <form
+        target="_blank"
+        action="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        method="post"
+      >
         <h2>Inicio de sesión</h2>
         <input type="text" name="user" id="user" placeholder="Usuario" />
         <input
@@ -40,7 +44,7 @@ export default function LoginPage() {
           id="password"
           placeholder="Contraseña"
         />
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" className="cursor-pointer" />
       </form>
     </section>
   );

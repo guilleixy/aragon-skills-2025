@@ -233,6 +233,10 @@ a {
   animation: astronaut 4s infinite;
 }
 
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
 @keyframes astronaut {
   0% {
     top: 200px;
