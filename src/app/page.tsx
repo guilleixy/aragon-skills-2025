@@ -67,7 +67,7 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      {/*       <ContestantsTable /> */}
+      <ContestantsTable />
     </div>
   );
 }

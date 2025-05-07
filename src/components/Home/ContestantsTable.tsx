@@ -1,34 +1,103 @@
-import { Table } from "@mantine/core";
+"use client";
 
-const elements = [
-  { position: 6, mass: 12.011, symbol: "C", name: "Carbon" },
-  { position: 7, mass: 14.007, symbol: "N", name: "Nitrogen" },
-  { position: 39, mass: 88.906, symbol: "Y", name: "Yttrium" },
-  { position: 56, mass: 137.33, symbol: "Ba", name: "Barium" },
-  { position: 58, mass: 140.12, symbol: "Ce", name: "Cerium" },
-];
+import { useState, useEffect } from "react";
+import { Button, TextInput, Loader, Table } from "@mantine/core";
 
 export default function ContestantsTable() {
-  const rows = elements.map((element) => (
-    <Table.Tr key={element.name}>
-      <Table.Td>{element.position}</Table.Td>
-      <Table.Td>{element.name}</Table.Td>
-      <Table.Td>{element.symbol}</Table.Td>
-      <Table.Td>{element.mass}</Table.Td>
-    </Table.Tr>
-  ));
+  const [name, setName] = useState("");
+  const [year, setYear] = useState("");
+  const [escuela, setEscuela] = useState("");
+  const [especialidad, setEspecialidad] = useState("");
+  const [position, setPosition] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [results, setResults] = useState<any[]>([]);
+
+  const fetchResults = async () => {
+    setLoading(true);
+
+    const params = new URLSearchParams();
+
+    if (name) params.append("name", name);
+    if (year) params.append("year", year);
+    if (escuela) params.append("escuela", escuela);
+    if (especialidad) params.append("especialidad", especialidad);
+    if (position) params.append("position", position);
+
+    const res = await fetch(`/api/results?${params}`);
+    const data = await res.json();
+
+    setResults(data);
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    fetchResults();
+  }, []);
 
   return (
-    <Table>
-      <Table.Thead>
-        <Table.Tr>
-          <Table.Th>Element position</Table.Th>
-          <Table.Th>Element name</Table.Th>
-          <Table.Th>Symbol</Table.Th>
-          <Table.Th>Atomic mass</Table.Th>
-        </Table.Tr>
-      </Table.Thead>
-      <Table.Tbody>{rows}</Table.Tbody>
-    </Table>
+    <div>
+      <h1>Resultados</h1>
+
+      <div>
+        <TextInput
+          label="Nombre"
+          value={name}
+          onChange={(e) => setName(e.currentTarget.value)}
+        />
+        <TextInput
+          label="Año"
+          value={year}
+          onChange={(e) => setYear(e.currentTarget.value)}
+        />
+        <TextInput
+          label="Escuela"
+          value={escuela}
+          onChange={(e) => setEscuela(e.currentTarget.value)}
+        />
+        <TextInput
+          label="Especialidad"
+          value={especialidad}
+          onChange={(e) => setEspecialidad(e.currentTarget.value)}
+        />
+        <TextInput
+          label="Posición"
+          value={position}
+          onChange={(e) => setPosition(e.currentTarget.value)}
+        />
+        <Button onClick={fetchResults}>Buscar</Button>
+      </div>
+
+      {loading ? (
+        <Loader mt="lg" />
+      ) : (
+        <Table mt="lg" highlightOnHover striped>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              {/*               <th>Escuela</th> */}
+              {/*               <th>Especialidad</th> */}
+              <th>Año</th>
+              <th>Posición</th>
+            </tr>
+          </thead>
+          <tbody>
+            {results.map((res) => (
+              <tr key={res.id}>
+                <td>{res.competidor.name}</td>
+                {/*                 <td>{res.competidor.escuela}</td> */}
+                {/*                 <td>{res.competidor.especialidadid}</td> */}
+                <td>{res.edicion.year}</td>
+                <td>{res.position}</td>
+                <td>
+                  <Button color="black" onClick={() => console.log("a")}>
+                    Borrar
+                  </Button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      )}
+    </div>
   );
 }
