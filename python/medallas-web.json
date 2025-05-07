@@ -1,0 +1,1038 @@
+[
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JORGE BERDOY GARCÍA",
+        "CENTRO EDUCATIVO": "SALESIANOS \"\"NTRA. SRA. DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "FRESBEL ABIMAEL DELGADO NAVARRO",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "DIEGO GUIRADO ARIZÓN",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "BIZEN  CRESPO CORTIJO",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "DANIEL TORMES LOU",
+        "CENTRO EDUCATIVO": "CPIFP CORONA DE ARAGÓN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "PEDRO GARCÍA BOLEA",
+        "CENTRO EDUCATIVO": "CPIFP CORONA DE ARAGÓN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "RAÚL ÁNGEL CORTÉS MORENO",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JUAN JOSÉ BURRIEL FORNS",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "GABRIEL PLOU ANADON",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "MARCOS ALGÁS SANCHO",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "DANIEL MARTINEZ FERNANDEZ",
+        "CENTRO EDUCATIVO": "IES LA PUEBLA DE ALFINDÉN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JOSÉ ANTONIO MOYANO GIMENO",
+        "CENTRO EDUCATIVO": "CPRIFP LA SALLE SANTO ANGEL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JAVIER BIELSA",
+        "CENTRO EDUCATIVO": "CPIFP MONTEARAGÓN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "DAVID ALONSO GONZALEZ",
+        "CENTRO EDUCATIVO": "IES MARIA MOLINER",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ALEX GALLEGO SANCHEZ",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "OSCAR MILIAN CABELLO",
+        "CENTRO EDUCATIVO": "CPIFP BAJO ARAGÓN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "GUSTAVO DANTAS COELHO ROSARIO",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "FRANCISCO JAVIER PARRILLA ROMERO",
+        "CENTRO EDUCATIVO": "IES MARTINEZ VARGAS",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "MANUEL SÁNCHEZ PERIBAÑEZ",
+        "CENTRO EDUCATIVO": "IES SALVADOR VICTORIA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "LORIEN HEREDIA LACASA",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JORGE GARCÍA ITURBE",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "LUÍS MIGUEL GIL SORO",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ELENA RODERO OLIVAN",
+        "CENTRO EDUCATIVO": "IES MOR  DE FUENTES",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "GABRIEL SANCHEZ RODRIGO",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "ABRAHAM AMESTI CALEJERO",
+        "CENTRO EDUCATIVO": "CPRIFP LA SALLE SANTO ANGEL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ABDOULHAMID  N'DIAYE",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "IVAN AGUILAR HERNÁNDEZ",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DAVID PLUMED MARCO",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JOSÉ LUÍS HUERTAMENDIA PAUL",
+        "CENTRO EDUCATIVO": "IES MARTINEZ VARGAS",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JOSÉ SERRANO LAMPRE",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "SALAM COULIBALY DANCIA",
+        "CENTRO EDUCATIVO": "CPEPA CASA DEL CANAL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "TAREK YAGOUB YAZID",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "HECTOR AGUSTÍN MONTOLIO",
+        "CENTRO EDUCATIVO": "IES FRANCES DE ARANDA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JAVIER TUNEZ SALVADOR",
+        "CENTRO EDUCATIVO": "IES FRANCES DE ARANDA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "IZARBE RIPOLL URIEL",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "LANCINE CONDE",
+        "CENTRO EDUCATIVO": "CPEPA CASA DEL CANAL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "CRISTINA MARTÍNEZ QUILEZ",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ÁNGELA SANCHEZ NOGUERAS",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "RUTH GARCÉS CABABES",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "VANESA RAMÍREZ GINARTE",
+        "CENTRO EDUCATIVO": "IES SIERRA DE SAN QUILEZ",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "LUCIA MURILLO ARAGÓN",
+        "CENTRO EDUCATIVO": "IES SIERRA DE SAN QUILEZ",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ANA MARÍA STANCU",
+        "CENTRO EDUCATIVO": "IES SEGUNDO DE CHOMÓN",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JOEL GIMENO MORENO",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JOSÉ MARCO PLOU",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ANDREI OARA",
+        "CENTRO EDUCATIVO": "CPIFP BAJO ARAGON",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "PAULA CAMILA ESCUDER LADINO",
+        "CENTRO EDUCATIVO": "CPIFP ESCUELA HOSTELERIA Y TURISMO  TERUEL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "IVAN GARCÍA SECORUN",
+        "CENTRO EDUCATIVO": "ESCUELA DE HOSTELERÍA GUAYENTE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "VICTORITA BRICI",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "CINTIA MATEO VISIEDO",
+        "CENTRO EDUCATIVO": "CPIFP SAN LORENZO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "SARA BLASO LOPE",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JOSÉ MARÍA LÓPEZ ESCRIBANO",
+        "CENTRO EDUCATIVO": "CPIFP SAN LORENZO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JUAN SANCHO QUEROL",
+        "CENTRO EDUCATIVO": "CPIFP ESCUELA HOSTELERIA Y TURISMO TERUEL",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "RUBÉN LORENTE OLMEDILLA",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "PABLO AGUILERA LARROSA",
+        "CENTRO EDUCATIVO": "IES MARTINEZ VARGAS",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JUAN MARTINEZ BENEDICTO",
+        "CENTRO EDUCATIVO": "CPIFP BAJO ARAGON",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DANIEL FALCON APTRACHEVA",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "IBON ARTIAGA SAN SEBASTIAN",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "DANIEL ZAERA SERRANO",
+        "CENTRO EDUCATIVO": "IES PABLO GARGALLO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "RUBÉN LOSADA SALAMERO",
+        "CENTRO EDUCATIVO": "IES PABLO GARGALLO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JUAN DE PABLO SANCHO",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "LUCÍA PEREZ CACHORRO",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DAVID IZQUIERDO GARGALLO",
+        "CENTRO EDUCATIVO": "IES SALVADOR VICTORIA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "PABLO ANSON SANCHO",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "GUILLERMO LASCORZ PRADAL",
+        "CENTRO EDUCATIVO": "CPIFP PIRÁMIDE",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "MIGUEL DE ANTONIO",
+        "CENTRO EDUCATIVO": "IES SIERRA DE GUARA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "RUBÉN LATRE ESCUDERO",
+        "CENTRO EDUCATIVO": "IES SIERRA DE GUARA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "DANIEL UBALDE LAGUIA",
+        "CENTRO EDUCATIVO": "SALESIANOS \"NTRA. SRA. DEL PILAR\"",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "ALBA GIMÉNEZ LAHUERTA",
+        "CENTRO EDUCATIVO": "CPIFP SAN LORENZO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "RODRIGO ACÍN  YÑIGO",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "KHADIJA HASSAOUI",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "CRISTINA ROYO  OLLO",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "GARCÍA  FRANCO",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "IRENE FERNÁNDEZ ROMEO",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2021"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JESÚS SAGASTE AZNAR",
+        "CENTRO EDUCATIVO": "IES CINCO VILLAS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DANIEL AZNAR AZNAR",
+        "CENTRO EDUCATIVO": "IES CINCO VILLAS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "BIZEN CRESPO CORTIJO",
+        "CENTRO EDUCATIVO": "CPIFP PIRAMIDE",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "MIGUEL ARANALDE PEREZ",
+        "CENTRO EDUCATIVO": "CPIFP PIRAMIDE",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "NICOLAS MENE MANERO",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "04. MECATRÓNICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "JESUS ASENSIO AZPEITIA",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "HUGO GRACIA JOVEN",
+        "CENTRO EDUCATIVO": "LA SALLE SANTOANGEL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JESUS FERNANDO MEJIA",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "05. DISEÑO MECÁNICO-CAD",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "EDGAR GONZALEZ GRAMUN",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DANIEL CABRERA GOMEZ",
+        "CENTRO EDUCATIVO": "IES LA PUEBLA DE ALFINDEN",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "SERGIO VAL CRISTOBAL",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "07. CNC  FRESADO",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "IVAN LASHERAS AURED",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "DAMIAN COBAS GASCON",
+        "CENTRO EDUCATIVO": "CPIFP MONTEARAGON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ERIC ADRIAN CAJAS ISVEZ",
+        "CENTRO EDUCATIVO": "IES MARIA MOLINER",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "10. SOLDADURA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ROBERTO BADULES SEBASTIAN",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JESUS IZQUIERDO SANZ",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "STEFAN ALEXANDRU MALUSPARTEANU",
+        "CENTRO EDUCATIVO": "IES MARTINEZ VARGAS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "13. REPARACIÓN DE CARROCERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "AMJAD AIT BAHA",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JAVIER TENA ZURITA",
+        "CENTRO EDUCATIVO": "IES SIERRA DE SAN QUILEZ",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "DAVID CUEN FONT",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "15. FONTANERÍA Y CALEFACCIÓN",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "SERGIO FERRER LAHUERTA",
+        "CENTRO EDUCATIVO": "IES SALVADOR VICTORIA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "CARLOS SESMA USARRALDE",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "CARLOS CRESPO CAMBRA",
+        "CENTRO EDUCATIVO": "CENTRO SAN VALERO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "17. DESARROLLO WEB",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "CLARA BUJEDA MUÑOZ",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "IKER LORENZO PASCUAL",
+        "CENTRO EDUCATIVO": "IES SEGUNDO DE CHOMON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ALEX CALLEN HERNANDO",
+        "CENTRO EDUCATIVO": "CPIFP PIRAMIDE",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "18. INSTALACIONES ELÉCTRICAS",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "VICTOR ALMAZAN ORTIN",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "ANDREI LOCIC",
+        "CENTRO EDUCATIVO": "IES SEGUNDO DE CHOMON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "JESUS IBAÑEZ TORRES",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "19. CONTROL INDUSTRIAL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "LEONARD PRZYLUCKI",
+        "CENTRO EDUCATIVO": "IES GALLICUM",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JONATHAN MORLANES RODRIGUEZ",
+        "CENTRO EDUCATIVO": "CEPEPA CASA DEL CANAL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "LUCAS RAMON VERON REYES",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "24. EBANISTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "EDGAR ADELL GOMEZ",
+        "CENTRO EDUCATIVO": "IES FRANCES DE ARANDA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "EMMANUEL KUSI MENSAH",
+        "CENTRO EDUCATIVO": "CEPEPA CASA DEL CANAL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "SERGIO COTORE SANCHEZ",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "25. CARPINTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "HECTOR AGUSTIN MONTOLIO",
+        "CENTRO EDUCATIVO": "IES FRANCES DE ARANDA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "AUGUSTINE ADJEI AMANKONA",
+        "CENTRO EDUCATIVO": "IES REYES CATOLICOS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "VICTOR RUIZ CACHO",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "28. FLORISTERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "SUSANA KAWAA",
+        "CENTRO EDUCATIVO": "IES REYES CATOLICOS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "RUBEN ORTIZ ASENSIO",
+        "CENTRO EDUCATIVO": "IES CINCO VILLAS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "IVONNE GARCIA PLATERO",
+        "CENTRO EDUCATIVO": "IES SANTIAGO HERNANDEZ",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "29. PELUQUERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "VANESA RAMIREZ GINARTE",
+        "CENTRO EDUCATIVO": "IES SIERRA DE SAN QUILEZ",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "CARLOS PEREZ SERRANO",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ADESSAMAD OURAJDAL",
+        "CENTRO EDUCATIVO": "IES SIERRA DE GUARA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "33. TECNOLOGÍA DEL AUTOMÓVIL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ADRIAN JIMENEZ BEJAR",
+        "CENTRO EDUCATIVO": "CPIFP BAJO ARAGON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "IVAN GORRIZ MONFORTE",
+        "CENTRO EDUCATIVO": "CPIFP ESCUELA HOSTELERIA TERUEL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "MARIA SALAS GRACIA",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "34. COCINA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "AARON MELERO MARTINEZ",
+        "CENTRO EDUCATIVO": "CPIFP SAN LORENZO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "CAROLINA MONTOLIO FERNANDES",
+        "CENTRO EDUCATIVO": "CPIFP ESCUELA HOSTELERIA TERUEL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "SHANAIA REQUEJO RAMIRO",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "35. SERVICIO DE RESTAURANTE Y BAR",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "IVAN GARCIA SECORUN",
+        "CENTRO EDUCATIVO": "ESCUELA DE HOSTELERIA DE GUAYENTE",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "HUGO CHUECA GARRIDO",
+        "CENTRO EDUCATIVO": "SALESIANOS NUESTRA SRA DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ISMAEL NDIAYE ASO",
+        "CENTRO EDUCATIVO": "IES MARTINEZ VARGAS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "36. PINTURA DEL AUTOMÓVIL",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ROXANA ISABEL SILVA VERGARA",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "JAVIER ANTONIO CANDELA ESPINOZA",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "PABLO CHAVES GARCIA",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "AXEL ARA BERBEL",
+        "CENTRO EDUCATIVO": "CPIFP MONTEARAGON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "LUIS BADIA MARION",
+        "CENTRO EDUCATIVO": "CPIFP MONTEARAGON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ABDERRAMAN ZNAGUI",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "37. JARDINERÍA PAISAJÍSTICA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "SHAIEL ABRIL MARIN",
+        "CENTRO EDUCATIVO": "CPIFP MOVERA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "OSCAR ORTEGA ALMUNIA",
+        "CENTRO EDUCATIVO": "IES SIERRA DE SAN QUILEZ",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "RUBEN MUÑOZ POLO",
+        "CENTRO EDUCATIVO": "IES SALVADOR VICTORIA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "38. REFRIGERACIÓN",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "ALEX CARO TELLO",
+        "CENTRO EDUCATIVO": "IES VIRGEN DEL PILAR",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "ROBERT SEBASTIAN VISU",
+        "CENTRO EDUCATIVO": "IES LEONARDO DE CHABACIER",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "RAUL DUQUE MONTES",
+        "CENTRO EDUCATIVO": "IES SIERRA DE GUARA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "39. TIC ADMINISTRACIÓN DE SISTEMAS DE RED",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "CARLOS ARANA GALERA",
+        "CENTRO EDUCATIVO": "IES TIEMPOS MODERNOS",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "41. ATENCIÓN SOCIOSANITARIA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "PAZ MONGIO BONILLA",
+        "CENTRO EDUCATIVO": "IES SIERRA DE GUARA",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "41. ATENCIÓN SOCIOSANITARIA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "AMARA DIAZ GARCIA",
+        "CENTRO EDUCATIVO": "CPIFP BAJO ARAGON",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "41. ATENCION SOCIOSANITARIA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "CARLA GONZALEZ GUILLEN",
+        "CENTRO EDUCATIVO": "IES LEONARDO DE CHABACIER",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "RAUL GARCIA VILLARCO",
+        "CENTRO EDUCATIVO": "CPIFP ESCUELA HOSTELERIA TERUEL",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "LESLEY RASCON PEREZ",
+        "CENTRO EDUCATIVO": "CPIFP SAN LORENZO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "47. PANADERÍA",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "SARA LOPEZ RUBIO",
+        "CENTRO EDUCATIVO": "IES MIRALBUENO",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "BRONCE",
+        "COMPETIDOR": "RUBEN MARTINEZ SOLA",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "PLATA",
+        "COMPETIDOR": "ADA DOMEQUE MULLOR",
+        "CENTRO EDUCATIVO": "CPFIP LOS ENLACES",
+        "AÑO": "2023"
+    },
+    {
+        "SKILL": "50. ANIMACIÓN 3D Y JUEGOS",
+        "MEDALLA": "ORO",
+        "COMPETIDOR": "LAURA ANIA ARAGON",
+        "CENTRO EDUCATIVO": "CPIFP LOS ENLACES",
+        "AÑO": "2023"
+    }
+]
