@@ -5,10 +5,14 @@ import ContestantsTable from "@/components/Home/ContestantsTable";
 import AstronautCard from "@/components/Home/AstronautCard";
 import ContestantsLi from "@/components/Home/ContestantsLi";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className={styles.page}>
-      <section id="objectives" className="height-screen">
+      <section
+        id="objectives"
+        className="height-screen"
+        style={{ marginTop: "100vh" }}
+      >
         <h2>Objetivos</h2>
         <ul className="card-wrapper">
           <AstronautCard
@@ -42,11 +46,15 @@ export default function Home() {
           />
         </ul>
       </section>
-      <section id="contestants" className="height-screen">
+      <section
+        id="contestants"
+        className="height-screen"
+        style={{ marginTop: "100vh" }}
+      >
         <h2 style={{ marginTop: "30px" }}>¿Quiénes participan?</h2>
         <div className="contestants-content">
           <img src="/img/astronaut5.png" alt="Astronaut standing on planet" />
-          <ul className="points-wrapper">
+          <ul className="points-wrapper" style={{ height: "100%" }}>
             <ContestantsLi
               emoji="⭐"
               text="Estudiantes &nbsp;de

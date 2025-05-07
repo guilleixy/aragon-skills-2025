@@ -34,7 +34,12 @@ export async function GET(req: NextRequest) {
     const results = await prisma.resultadoCompetidor.findMany({
       where: filters,
       include: {
-        competidor: true,
+        competidor: {
+          include: {
+            escuela: true,
+            especialidad: true,
+          },
+        },
         edicion: true,
       },
     });

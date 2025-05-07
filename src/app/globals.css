@@ -1,51 +1,4 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-header {
-  height: 100vh;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-:root {
   --background: #24073d;
   --stars-color: #ebebea;
   font-family: Inter, sans-serif;
@@ -111,6 +64,7 @@ h1 {
 }
 
 section {
+  min-height: 100vh !important;
 }
 
 .point-li {
@@ -151,6 +105,7 @@ li {
 ul {
   list-style: none;
   padding: 0;
+  height: 100%;
 }
 
 form {
@@ -197,8 +152,8 @@ h2 {
 
 input,
 select {
-  color: white;
-  background-color: black;
+  color: white !important;
+  background-color: black !important;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.185);
   border-radius: 0.2rem;
@@ -218,6 +173,7 @@ table {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  overflow: scroll;
 }
 
 tr,

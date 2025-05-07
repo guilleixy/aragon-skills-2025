@@ -17,11 +17,11 @@ export default function ContestantsTable() {
 
     const params = new URLSearchParams();
 
-    if (name) params.append("name", name);
-    if (year) params.append("year", year);
-    if (escuela) params.append("escuela", escuela);
-    if (especialidad) params.append("especialidad", especialidad);
-    if (position) params.append("position", position);
+    if (name) params.append("name", name.toUpperCase());
+    if (year) params.append("year", year.toUpperCase());
+    if (escuela) params.append("escuela", escuela.toUpperCase());
+    if (especialidad) params.append("especialidad", especialidad.toUpperCase());
+    if (position) params.append("position", position.toUpperCase());
 
     const res = await fetch(`/api/results?${params}`);
     const data = await res.json();
@@ -35,10 +35,20 @@ export default function ContestantsTable() {
   }, []);
 
   return (
-    <div>
-      <h1>Resultados</h1>
-
-      <div>
+    <section
+      id="table"
+      style={{ display: "block", height: "100%", marginTop: "200vh" }}
+    >
+      <h1>Ganadores</h1>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexWrap: "wrap",
+          gap: "5rem",
+        }}
+      >
         <TextInput
           label="Nombre"
           value={name}
@@ -48,6 +58,7 @@ export default function ContestantsTable() {
           label="Año"
           value={year}
           onChange={(e) => setYear(e.currentTarget.value)}
+          color="danger"
         />
         <TextInput
           label="Escuela"
@@ -64,7 +75,13 @@ export default function ContestantsTable() {
           value={position}
           onChange={(e) => setPosition(e.currentTarget.value)}
         />
-        <Button onClick={fetchResults}>Buscar</Button>
+        <Button
+          style={{ marginTop: "25px" }}
+          onClick={fetchResults}
+          color="black"
+        >
+          Buscar
+        </Button>
       </div>
 
       {loading ? (
@@ -74,30 +91,33 @@ export default function ContestantsTable() {
           <thead>
             <tr>
               <th>Nombre</th>
-              {/*               <th>Escuela</th> */}
-              {/*               <th>Especialidad</th> */}
+              <th>Escuela</th>
+              <th>Especialidad</th>
               <th>Año</th>
               <th>Posición</th>
             </tr>
           </thead>
           <tbody>
-            {results.map((res) => (
-              <tr key={res.id}>
+            {results.map((res, key) => (
+              <tr
+                key={key}
+                style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}
+              >
                 <td>{res.competidor.name}</td>
-                {/*                 <td>{res.competidor.escuela}</td> */}
-                {/*                 <td>{res.competidor.especialidadid}</td> */}
+                <td>{res.competidor.escuela.name}</td>
+                <td>{res.competidor.especialidad.name}</td>
                 <td>{res.edicion.year}</td>
                 <td>{res.position}</td>
-                <td>
+                {/*                 <td>
                   <Button color="black" onClick={() => console.log("a")}>
                     Borrar
                   </Button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>
         </Table>
       )}
-    </div>
+    </section>
   );
 }
