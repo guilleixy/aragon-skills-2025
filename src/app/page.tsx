@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { Button } from "@mantine/core";
 import ContestantsTable from "@/components/Home/ContestantsTable";
+import AstronautCard from "@/components/Home/AstronautCard";
+import ContestantsLi from "@/components/Home/ContestantsLi";
 
 export default function Home() {
   return (
@@ -9,59 +11,35 @@ export default function Home() {
       <section id="objectives" className="height-screen">
         <h2>Objetivos</h2>
         <ul className="card-wrapper">
-          <li className="card">
-            <h4>
-              <b>Visibilizar la FP</b>
-            </h4>
-            <img
-              src="/img/astronaut1.png"
-              alt="Astronaut sitting on a planet"
-            />
-            <p>
-              Dar a conocer el alto nivel de la
-              <b>Formación Profesional</b> aragonesa.
-            </p>
-          </li>
-          <li className="card">
-            <h4>
-              <b>Fomentar la excelencia</b>
-            </h4>
-            <img
-              src="/img/astronaut2.png"
-              alt="Astronaut hanging under a rocket ship"
-            />
-            <p>
-              Motivar al alumnado a superarse y desarrollar competencias de alto
-              nivel <b>técnico y profesiona</b>l.​
-            </p>
-          </li>
-          <li className="card">
-            <h4>
-              <b>Acercar la FP al tejido empresarial</b>
-            </h4>
-            <img
-              src="/img/astronaut3.png"
-              alt="Astronaut playing with planets"
-            />
-            <p>
-              Promover el <b>contacto</b> entre centros educativos, empresas y
-              jóvenes talentos.​​
-            </p>
-          </li>
-          <li className="card">
-            <h4>
-              <b>Seleccionar representantes</b>
-            </h4>
-            <img
-              src="/img/astronaut4.png"
-              alt="Astronaut sitting on a rocket ship"
-            />
-            <p>
-              Elegir a los estudiantes que representarán a <b>Aragón</b> en las
+          <AstronautCard
+            title="Visibilizar la FP"
+            img="/img/astronaut1.png"
+            imgAlt="Astronaut sitting on a planet"
+            text="Dar a conocer el alto nivel de la
+              Formación Profesional aragonesa."
+          />
+          <AstronautCard
+            title="Fomentar la excelencia"
+            img="/img/astronaut2.png"
+            imgAlt="Astronaut sitting on a planet"
+            text="Motivar al alumnado a superarse y desarrollar competencias de alto
+              nivel técnico y profesiona"
+          />
+          <AstronautCard
+            title="Acercar la FP al tejido empresarial"
+            img="/img/astronaut3.png"
+            imgAlt="Astronaut sitting on a planet"
+            text="Promover el contacto entre centros educativos, empresas y
+              jóvenes talentos.​​"
+          />
+          <AstronautCard
+            title="Seleccionar representantes"
+            img="/img/astronaut4.png"
+            imgAlt="Astronaut sitting on a planet"
+            text="Elegir a los estudiantes que representarán a Aragón en las
               competiciones nacionales (SpainSkills) e internacionales
-              (WorldSkills y EuroSkills).​
-            </p>
-          </li>
+              (WorldSkills y EuroSkills).​​​"
+          />
         </ul>
       </section>
       <section id="contestants" className="height-screen">
@@ -69,20 +47,23 @@ export default function Home() {
         <div className="contestants-content">
           <img src="/img/astronaut5.png" alt="Astronaut standing on planet" />
           <ul className="points-wrapper">
-            <li className="point-li">
-              <span className="point-emoji">⭐</span> &nbsp;Estudiantes &nbsp;de
+            <ContestantsLi
+              emoji="⭐"
+              text="Estudiantes &nbsp;de
               Formación Profesional de Grado Medio o Superior de centros
-              públicos, privados y concertados de Aragón.​
-            </li>
-            <li className="point-li">
-              <span className="point-emoji">🪐</span>&nbsp;Profesores &nbsp;y
-              tutores que actúan como preparadores y asesores técnicos.​​
-            </li>
-            <li className="point-li">
-              <span className="point-emoji">🚀</span>&nbsp; Empresas
+              públicos, privados y concertados de Aragón.​"
+            />
+            <ContestantsLi
+              emoji="🪐"
+              text="Profesores &nbsp;y
+              tutores que actúan como preparadores y asesores técnicos.​​​"
+            />
+            <ContestantsLi
+              emoji="🚀"
+              text="Empresas
               &nbsp;colaboradoras que aportan recursos, material técnico y
-              experiencia.​​
-            </li>
+              experiencia.​​​"
+            />
           </ul>
         </div>
       </section>

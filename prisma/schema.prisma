@@ -15,25 +15,23 @@ datasource db {
 
 model Competidor {
   id Int @id @default(autoincrement())
-  name String
-  surname String
+  name String @unique
   escuela Escuela? @relation(fields: [escuelaId], references: [id], onDelete: SetNull, onUpdate: Cascade)
   escuelaId Int?
-  especialidad Especialidad @relation(fields: [especialidadId], references: [id])
-  especialidadId Int
+  especialidad Especialidad? @relation(fields: [especialidadId], references: [id])
+  especialidadId Int?
   resultados ResultadoCompetidor[]
 }
 
 model Escuela{
   id Int @id @default(autoincrement())
-  name String
+  name String @unique
   alumnos Competidor[]
 }
 
 model Especialidad {
   id Int @id @default(autoincrement())
-  name String
-  code String
+  name String @unique
   especialistas Competidor[]
 }
 
@@ -50,4 +48,10 @@ model ResultadoCompetidor{
   edicionId Int
   position String
   @@id([competidorId, edicionId]) 
+}
+
+model User{
+  id Int @id @default(autoincrement())
+  username String? @unique
+  password String?
 }

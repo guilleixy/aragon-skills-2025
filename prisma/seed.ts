@@ -20,13 +20,21 @@ async function main() {
         name: result["CENTRO EDUCATIVO"],
       },
     }); */
-    await prisma.resultadoCompetidor.create({
-      data: {
-        competidorId: 1,
-        position: result.MEDALLA,
-        edicionId: 1,
+    await prisma.escuela.upsert({
+      where: { name: result["CENTRO EDUCATIVO"] },
+      update: {},
+      create: {
+        name: result["CENTRO EDUCATIVO"],
       },
     });
+    await prisma.especialidad.upsert({
+      where: { name: result.SKILL },
+      update: {},
+      create: {
+        name: result.SKILL,
+      },
+    })
+    await prisma
   }
 }
 

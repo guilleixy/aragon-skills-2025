@@ -13,6 +13,8 @@ export const metadata = {
   title: "My Mantine app",
   description: "I have followed setup instructions carefully",
 };
+import { SessionProvider } from "next-auth/react";
+
 export default function RootLayout({
   children,
 }: {
