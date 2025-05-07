@@ -6,20 +6,6 @@ import results from "../python/medallas-web.json" with { type: "json" };
 
 async function main() {
   for (let result of results) {
-    /*     await prisma.edicion.upsert({
-      where: { year: result.AÑO },
-      update: {},
-      create: {
-        year: result.AÑO,
-      },
-    });
-    await prisma.escuela.upsert({
-      where: { name: result["CENTRO EDUCATIVO"] },
-      update: {},
-      create: {
-        name: result["CENTRO EDUCATIVO"],
-      },
-    }); */
     await prisma.escuela.upsert({
       where: { name: result["CENTRO EDUCATIVO"] },
       update: {},

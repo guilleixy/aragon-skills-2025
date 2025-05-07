@@ -37,7 +37,11 @@ export default function ContestantsTable() {
   return (
     <section
       id="table"
-      style={{ display: "block", height: "100%", marginTop: "200vh" }}
+      style={{
+        display: "block",
+        height: "100%",
+        marginTop: "150vh",
+      }}
     >
       <h1>Ganadores</h1>
       <div
@@ -86,7 +90,7 @@ export default function ContestantsTable() {
 
       {loading ? (
         <Loader mt="lg" />
-      ) : (
+      ) : results.length > 0 ? (
         <Table mt="lg" highlightOnHover striped>
           <thead>
             <tr>
@@ -117,6 +121,8 @@ export default function ContestantsTable() {
             ))}
           </tbody>
         </Table>
+      ) : (
+        <p style={{ marginTop: "30px" }}>No se encontraron resultados</p>
       )}
     </section>
   );
