@@ -12,8 +12,8 @@ import {
 import Header from "@/components/global/Header";
 
 export const metadata = {
-  title: "My Mantine app",
-  description: "I have followed setup instructions carefully",
+  title: "Araǵon Skills",
+  description: "La página perfecta para conocer todo sobre las Aragón Skills",
 };
 import { SessionProvider } from "next-auth/react";
 import Stars from "@/components/global/Stars/Stars";

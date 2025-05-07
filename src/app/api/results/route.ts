@@ -77,23 +77,28 @@ export async function GET(req: NextRequest) {
       };
     }
     if (searchParams.has("escuela")) {
-      filters.driver = {
+      filters.competidor = {
         ...filters.competidor,
-        escuelaId: parseInt(searchParams.get("escuela")!),
+        escuela: {
+          name: searchParams.get("escuela"),
+        },
+      };
+    }
+    if (searchParams.has("year")) {
+      filters.edicion = {
+        year: searchParams.get("year"),
       };
     }
     if (searchParams.has("especialidad")) {
-      filters.driver = {
+      filters.competidor = {
         ...filters.competidor,
-        especialidadId: parseInt(searchParams.get("especialidad")!),
+        especialidad: { name: searchParams.get("especialidad") },
       };
     }
     if (searchParams.has("posicion")) {
-      filters.driver = {
-        ...filters.competidor,
-        posicion: parseInt(searchParams.get("posicion")!),
-      };
+      filters.position = searchParams.get("posicion");
     }
+
     const results = await prisma.resultadoCompetidor.findMany({
       where: filters,
       include: {

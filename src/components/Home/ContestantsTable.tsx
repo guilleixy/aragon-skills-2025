@@ -8,7 +8,7 @@ export default function ContestantsTable() {
   const [year, setYear] = useState("");
   const [escuela, setEscuela] = useState("");
   const [especialidad, setEspecialidad] = useState("");
-  const [position, setPosition] = useState("");
+  const [posicion, setPosicion] = useState("");
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<any[]>([]);
 
@@ -21,7 +21,7 @@ export default function ContestantsTable() {
     if (year) params.append("year", year.toUpperCase());
     if (escuela) params.append("escuela", escuela.toUpperCase());
     if (especialidad) params.append("especialidad", especialidad.toUpperCase());
-    if (position) params.append("position", position.toUpperCase());
+    if (posicion) params.append("posicion", posicion.toUpperCase());
 
     const res = await fetch(`/api/results?${params}`);
     const data = await res.json();
@@ -76,8 +76,8 @@ export default function ContestantsTable() {
         />
         <TextInput
           label="Posición"
-          value={position}
-          onChange={(e) => setPosition(e.currentTarget.value)}
+          value={posicion}
+          onChange={(e) => setPosicion(e.currentTarget.value)}
         />
         <Button
           style={{ marginTop: "25px" }}
