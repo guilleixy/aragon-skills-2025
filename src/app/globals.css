@@ -220,6 +220,10 @@ a {
   text-align: center;
 }
 
+.mantine-Select-option {
+  color: black;
+}
+
 #filters {
   margin-bottom: 50px;
 }

@@ -82,7 +82,7 @@ export default function ContestantsTable() {
         <Button
           style={{ marginTop: "25px" }}
           onClick={fetchResults}
-          color="black"
+          color="blue"
         >
           Buscar
         </Button>
