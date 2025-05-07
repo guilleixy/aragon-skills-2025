@@ -17,9 +17,9 @@ model Competidor {
   id Int @id @default(autoincrement())
   name String
   surname String
-  escuela Escuela @relation(fields: [escuelaId], references: [id])
-  escuelaId Int
-    especialidad Especialidad @relation(fields: [especialidadId], references: [id])
+  escuela Escuela? @relation(fields: [escuelaId], references: [id], onDelete: SetNull, onUpdate: Cascade)
+  escuelaId Int?
+  especialidad Especialidad @relation(fields: [especialidadId], references: [id])
   especialidadId Int
   resultados ResultadoCompetidor[]
 }
@@ -39,7 +39,7 @@ model Especialidad {
 
 model Edicion{
   id Int @id @default(autoincrement())
-  year String
+  year String @unique
   resultados ResultadoCompetidor[]
 }
 
