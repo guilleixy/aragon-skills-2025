@@ -40,7 +40,6 @@ export default function ContestantsTable() {
       style={{
         display: "block",
         height: "100%",
-        marginTop: "150vh",
       }}
     >
       <h1>Ganadores</h1>

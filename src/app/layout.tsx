@@ -9,14 +9,12 @@ import {
   MantineProvider,
   mantineHtmlProps,
 } from "@mantine/core";
-import Header from "@/components/global/Header";
-
+import Stars from "@/components/global/Stars/Stars";
 export const metadata = {
   title: "Araǵon Skills",
   description: "La página perfecta para conocer todo sobre las Aragón Skills",
 };
 import { SessionProvider } from "next-auth/react";
-import Stars from "@/components/global/Stars/Stars";
 
 export default function RootLayout({
   children,
@@ -29,11 +27,8 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>
-          <Stars />
-          <Header />
-          {children}
-        </MantineProvider>
+        <Stars />
+        <MantineProvider>{children}</MantineProvider>
       </body>
     </html>
   );
