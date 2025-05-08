@@ -7,9 +7,9 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, escuelaId, especialidadId, posicion } = body;
     const year = "2025";
-    /*     if (!name || escuelaId || especialidadId || posicion) {
+    if (!name || escuelaId || especialidadId || posicion) {
       return NextResponse.json({ error: "Missing fields" }, { status: 400 });
-    } */
+    }
     await prisma.competidor.upsert({
       where: { name: name },
       update: {},

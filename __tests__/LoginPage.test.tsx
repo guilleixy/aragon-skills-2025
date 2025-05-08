@@ -1,12 +1,12 @@
 import { render, screen } from "../testing-utils";
-import HomePage from "@/app/page";
+import LoginPage from "@/app/login/page";
 import { mockFetch } from "../testing-utils/mock-fetch";
-import { act } from "react-dom/test-utils";
+import "@testing-library/jest-dom";
 
 it("should have Nav text", () => {
   let someJson;
   window.fetch = mockFetch(someJson);
-  render(<HomePage />); // ARRANGE
-  const myElem = screen.getByText("Inicio"); // ACT
+  render(<LoginPage />); // ARRANGE
+  const myElem = screen.getByText("Inicio de sesión"); // ACT
   expect(myElem).toBeInTheDocument(); // ASSERT
 });
