@@ -8,5 +8,5 @@ it("should have Nav text", () => {
   window.fetch = mockFetch(someJson);
   render(<LoginPage />); // ARRANGE
   const myElem = screen.getByText("Inicio de sesión"); // ACT
-  expect(myElem).toBeInTheDocument(); // ASSER T
+  expect(myElem).toBeInTheDocument(); // ASSERT
 });
