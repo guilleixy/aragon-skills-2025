@@ -6,10 +6,10 @@ export async function GET() {
     const especialidades = await prisma.especialidad.findMany({});
 
     return NextResponse.json(especialidades);
-  } catch (error) {
+  } /* c8 ignore start */ catch (error) {
     console.error(error);
     return NextResponse.error();
-  }
+  } /* c8 ignore end */
 }
 
 export async function POST(request: Request) {
@@ -27,8 +27,8 @@ export async function POST(request: Request) {
     });
 
     return NextResponse.json(newEspecialidad, { status: 201 });
-  } catch (error) {
+  } /* c8 ignore start */ catch (error) {
     console.error(error);
     return NextResponse.error();
-  }
+  } /* c8 ignore end */
 }

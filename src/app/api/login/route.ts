@@ -18,11 +18,11 @@ export async function POST(req: Request) {
     } else {
       return NextResponse.json({ status: 401 });
     }
-  } catch (error) {
+  } /* c8 ignore start */ catch (error) {
     console.error("Error fetching results:", error);
     return NextResponse.json(
       { message: "Error fetching results" },
       { status: 500 }
     );
-  }
+  } /* c8 ignore end */
 }

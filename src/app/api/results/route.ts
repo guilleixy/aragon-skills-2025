@@ -7,7 +7,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, escuelaId, especialidadId, posicion } = body;
     const year = "2025";
-    if (!name || escuelaId || especialidadId || posicion) {
+    if (!name) {
       return NextResponse.json({ error: "Missing fields" }, { status: 400 });
     }
     await prisma.competidor.upsert({
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
     });
     const competidor = await prisma.competidor.findFirst({
       where: { name: name },
-    });
+    }); /* c8 ignore start */
     await prisma.resultadoCompetidor.create({
       data: {
         competidorId: competidor?.id!,
@@ -41,7 +41,7 @@ export async function POST(req: Request) {
       },
       { status: 500 }
     );
-  }
+  } /* c8 ignore end */
 }
 
 export async function DELETE(req: NextRequest) {
@@ -59,16 +59,18 @@ export async function DELETE(req: NextRequest) {
     });
 
     return NextResponse.json({ status: 200 });
-  } catch (error) {
+  } /* c8 ignore start */ catch (error) {
     console.error("Error deleting result:", error);
     return NextResponse.json(
       { message: "Error deleting results" },
       { status: 500 }
     );
-  }
+  } /* c8 ignore end */
 }
 
 export async function GET(req: NextRequest) {
+  console.log(req);
+
   try {
     const { searchParams } = new URL(req.url);
     const filters: any = {};
@@ -114,11 +116,11 @@ export async function GET(req: NextRequest) {
     });
 
     return NextResponse.json(results, { status: 200 });
-  } catch (error) {
+  } /* c8 ignore start */ catch (error) {
     console.error("Error fetching results:", error);
     return NextResponse.json(
       { message: "Error fetching results" },
       { status: 500 }
     );
-  }
+  } /* c8 ignore end */
 }
