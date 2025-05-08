@@ -16,7 +16,7 @@ it("should return error with status 400", async () => {
 
 it("should return error with status 401", async () => {
   const requestObj = {
-    json: async () => ({ username: "admin", password: "123" }),
+    json: async () => ({ username: "admin", password: "1234" }),
   } as any;
 
   const response = await POST(requestObj);

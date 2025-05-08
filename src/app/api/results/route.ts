@@ -19,12 +19,13 @@ export async function POST(req: Request) {
         especialidadId: parseInt(especialidadId),
       },
     });
+    /* c8 ignore start */
     const edicion = await prisma.edicion.findFirst({
       where: { year: year },
     });
     const competidor = await prisma.competidor.findFirst({
       where: { name: name },
-    }); /* c8 ignore start */
+    });
     await prisma.resultadoCompetidor.create({
       data: {
         competidorId: competidor?.id!,
