@@ -1,9 +1,9 @@
 name: Tests for Next.js app
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - "main"
 
 jobs:
   NextJS-Tests:
